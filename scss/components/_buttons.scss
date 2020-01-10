@@ -14,10 +14,10 @@
 }
 
 @each $key, $color in $btn-colors {
-    .btn .#{$key} {
-      background-color: $color;
-      &:hover {
-        background-color: lighten($color, 15%);
-      }
+  .btn.#{$key} {
+    background-color: $color;
+    &:hover {
+      background-color: lighten($color, 15%);
     }
   }
+}

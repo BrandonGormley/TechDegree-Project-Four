@@ -5,3 +5,11 @@ $text-color: #777;
 $white: #fff;
 
 $tablet-break: 768px;
+
+$btn-colors: (
+  'default': #51ddfc,
+  'error': #e4757a,
+  'info': #927bc1,
+  'success': #63cc82,
+  'warning': #fd7856,
+);

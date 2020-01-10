@@ -412,24 +412,44 @@ a {
   border-radius: 5px;
 }
 
-.default {
+.btn.default {
   background-color: #51ddfc;
 }
 
-.error {
+.btn.default:hover {
+  background-color: #9cecfd;
+}
+
+.btn.error {
   background-color: #e4757a;
 }
 
-.info {
+.btn.error:hover {
+  background-color: #f1b5b8;
+}
+
+.btn.info {
   background-color: #927bc1;
 }
 
-.success {
+.btn.info:hover {
+  background-color: #bdafd9;
+}
+
+.btn.success {
   background-color: #63cc82;
 }
 
-.warning {
+.btn.success:hover {
+  background-color: #9ddfb0;
+}
+
+.btn.warning {
   background-color: #fd7856;
+}
+
+.btn.warning:hover {
+  background-color: #feb4a2;
 }
 
 /* ============================================= */
